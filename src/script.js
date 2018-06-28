@@ -30,16 +30,19 @@ window.onload = function () {
 
         let item = document.createElement('li')
         let taskspan = document.createElement('span')
-        let xbtn = document.createElement('button')
-        // let upbtn = document.createElement('button')
-        // let downbtn = document.createElement('button')
+        let xbtn = document.createElement('span')
+        let upbtn = document.createElement('button')
+        let downbtn = document.createElement('button')
 
         taskspan.innerText = todo.task
         // taskspan.style.alignSelf = "left"
-        xbtn.innerHTML = "&otimes;"
-        xbtn.style.fontSize = "15px"
-        // upbtn.innerText = "^"
-        // downbtn.innerText = "v"
+        xbtn.innerHTML = "&#9989;"
+        xbtn.style.fontSize = "20px"
+        xbtn.style.cursor = "pointer"
+        upbtn.innerHTML = "&uarr;"
+        upbtn.style.fontSize = "15px"
+        downbtn.innerHTML = "&darr;"
+        downbtn.style.fontSize = "15px"
 
         if(todos[pos].done) {
 
@@ -53,10 +56,10 @@ window.onload = function () {
             refreshList()
         }
 
-        item.appendChild(taskspan)
         item.appendChild(xbtn)
-        // item.appendChild(upbtn)
-        // item.appendChild(downbtn)
+        item.appendChild(upbtn)
+        item.appendChild(downbtn)
+        item.appendChild(taskspan)
 
         return item
 
