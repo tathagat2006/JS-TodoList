@@ -35,7 +35,7 @@ window.onload = function () {
         // let downbtn = document.createElement('button')
 
         taskspan.innerText = todo.task
-        taskspan.style.alignContent = "left"
+        // taskspan.style.alignSelf = "left"
         xbtn.innerHTML = "&otimes;"
         xbtn.style.fontSize = "15px"
         // upbtn.innerText = "^"

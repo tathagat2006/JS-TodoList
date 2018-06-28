@@ -5,6 +5,7 @@ body {
 
 #container {
     border-radius: 5px;
+    /*align-items: left;*/
     background-color: white;
     font-family: Optima;
     font-size: xx-large;
