@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
@@ -12,8 +16,14 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
     <script src="src/jquery-3.3.1.js"></script>
     <script src="src/script.js"></script>
+    <script>
+        $( function() {
+            $( "#dialog" ).dialog();
+        } );
+    </script>
 </head>
 <body>
+<div id="dialog" title="Confirmation">Are You sure you want to add this task to your list?</div>
 <!--<div style="display: flex; flex-wrap:wrap; align-items: center">-->
 <div class="d-inline-flex p-2 alert alert-dark" style="flex-wrap: wrap; justify-content: center; margin-left:200px; margin-right:10px;align-items: center">
     <div class="input-group mb-3">
@@ -50,8 +60,8 @@
     </div>
 </div>
 <!--</div>-->
-<div class = "d-flex p-2 alert shadow-lg p-3 mb-5 bg-white rounded" style="flex-wrap: wrap; margin-left: 200px; margin-right: 162px; justify-content: center;">
-    <ul class="list-group" id="todolist">
+<div  class = "d-flex p-2 alert shadow-lg p-3 mb-5 bg-white rounded" style="flex-flow: column wrap; margin-left: 200px; margin-right: 162px; justify-content: center;">
+    <div id="todolist" style="flex-flow: column wrap; justify-content: center;" role="alert">
         <!--<li class="list-group-item">jhdbjshvacasjaksbdjasbdksbkjasbkjbkasbakss</li>-->
         <!--<li class="list-group-item">jhdbjshvacasjaksbdjasbdksbkjasbkjbkasbakss</li>-->
         <!--<li class="list-group-item">jhdbjshvacasjaksbdjasbdksbkjasbkjbkasbakss</li>-->
@@ -59,7 +69,7 @@
         <!--<li class="list-group-item">jhdbjshvacasjaksbdjasbdksbkjasbkjbkasbakss</li>-->
         <!--<li class="list-group-item">jhdbjshvacasjaksbdjasbdksbkjasbkjbkasbakss</li>-->
 
-    </ul>
+    </div>
 </div>
 </body>
 </html>

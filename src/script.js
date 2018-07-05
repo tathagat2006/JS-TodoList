@@ -89,29 +89,130 @@
 //     refreshList()
 // }
 
-$(() => {
+// $(() => {
+//
+//     let assignedby = $('#assignedby')
+//     let deadline = $('#deadline')
+//     let deadlinebtn = $('#deadlinebtn')
+//     let newtask = $('#newtask')
+//     let addtask = $('#addtask')
+//     let cleartask = $('#cleartask')
+//     let todolist = $('#todolist')
+//
+//     // deadlinebtn.click(() => {
+//     //     deadline.dateTime =
+//     // })
+//
+//     addtask.click(() => {
+//
+//         let by = assignedby.val()
+//         let date = deadline.val()
+//         let task = newtask.val()
+//
+//         // todolist.append($('<div>').append(
+//         //     $('<li  class="list-group-item  font-weight-bold">').text(task).append($(
+//         //         '<span style="margin-left: 10px;">' +
+//         //         '<i class="far fa-check-circle" style="color: green;"></i></span>').click(() => $(this.currentTarget).toggleClass('alert alert-success') ))
+//         // ))
+//
+//         // todolist.append($('<div font-weight-bold" >').text(task).append($(
+//         //     '<i class="far fa-check-circle" style="color: green; margin-left: 20px;">').click((e) => $(e.currentTarget).parent().toggleClass('alert alert-success'))).append(
+//         //         $('<i class="far fa-times-circle" style="color: red; margin-left: 20px;">').click((e) => $(e.currentTarget).parent().toggleClass('alert alert-danger'))))
+//
+//
+//
+//     })
 
-    let assignedby = $('#assignedby')
-    let deadline = $('#deadline')
-    let deadlinebtn = $('#deadlinebtn')
-    let newtask = $('#newtask')
-    let addtask = $('#addtask')
-    let cleartask = $('#cleartask')
-    let todolist = $('#todolist')
+// })
 
-    // deadlinebtn.click(() => {
-    //     deadline.dateTime =
-    // })
+// $(() => $('#addtask').click(
+//     () => $('#todolist').append(
+//         $('<li>')
+//             .append(
+//                 $('<button class="btn btn-success" style=" margin: 2px;">')
+//                     .html('<i class="far fa-check-circle" style=" margin: 2px;"></i>')
+//             )
+//             .append(
+//                 $('<button class="btn btn-danger" style=" margin: 2px;">')
+//                     .html('<i class="far fa-times-circle"></i>')
+//                     .click(
+//                         (e) => $(e.currentTarget).parent().remove()
+//                     )
+//             )
+//             .append(
+//                 $('<button class="btn btn-primary" style=" margin: 2px;">')
+//                     .html('<i class="far fa-arrow-alt-circle-down"></i>')
+//                     .click(
+//                         (e) => $(e.currentTarget).parent().insertAfter(
+//                             $(e.currentTarget).parent().next()
+//                         )
+//                     )
+//             )
+//             .append(
+//                 $('<button class="btn btn-primary" style=" margin: 2px;">')
+//                     .html('<i class="far fa-arrow-alt-circle-up"></i>')
+//                     .click(
+//                         (e) => $(e.currentTarget).parent().insertBefore(
+//                             $(e.currentTarget).parent().prev()
+//                         )
+//                     )
+//             )
+//             .append(
+//                 $('<span>')
+//                     .text($('#newtask').val())
+//                     .click(
+//                         (e) => $(e.currentTarget).parent().toggleClass('done')
+//                     )
+//             )
+//     )
+// )
+//     .click(() => $('#newtask').val(''))
+//     .next().click(
+//         () => $('.done').remove()
+//     ))
+//
 
-    addtask.click(() => {
+//Write here
 
-        // let by = assignedby.val()
-        // let date = deadline.val()
-        let task = newtask.val()
-        todolist.append(
-            $('<li  class="list-group-item">').text(task)
+$(() => $('#addtask').click(
+    () =>$('#todolist').append(
+        $('<li>')
+            .append(
+            $('<button class="btn btn-success" style=" margin: 2px;">')
+                .html('<i class="far fa-check-circle"></i>')
+            //     .click(
+            //         (e) => $(e.currentTarget).parent().remove()
+            // )  
         )
+        .append(
+            $('<button class="btn btn-danger" style="margin: 2px;">')
+                .html('<i class="far fa-times-circle"></i>')
+                .click((e) => $(e.currentTarget).parent().remove()
+                )
+        ).append(
+            $('<button class="btn btn-primary" style="margin: 2px;">')
+                .html('<i class="far fa-arrow-alt-circle-up"></i>')
+                .click(
+                    (e) => $(e.currentTarget).parent().insertBefore(
+                        $(e.currentTarget).parent().prev()
+                    )
+                )
+        ).append(
+            $('<button class="btn btn-primary" style="margin: 2px;">')
+                .html('<i class="far fa-arrow-alt-circle-down"></i>')
+                .click((e) => $(e.currentTarget).parent().insertAfter(
+                    $(e.currentTarget).parent().next()
+                ))
+        )
+            .append(
+                $('<span>')
+                    .text($('#newtask').val())
+                    .click(
+                        (e) => (e.currentTarget).parent().toggleClass('.done')
+                    )
+            )
 
-    })
+    ))
+    .click(() => $('#newtask').val('')).next().click(() => $('.done').remove())
+)
 
-})
