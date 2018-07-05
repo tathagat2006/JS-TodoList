@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e614b2ce-ed5c-4409-bda7-08282d7ff100" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jquery-ui-1.12.1.custom/jquery-ui.css" beforeDir="false" afterPath="$PROJECT_DIR$/jquery-ui-1.12.1.custom/jquery-ui.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jquery-ui-1.12.1.custom/jquery-ui.js" beforeDir="false" afterPath="$PROJECT_DIR$/jquery-ui-1.12.1.custom/jquery-ui.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/script.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -22,7 +23,7 @@
         <entry file="file://$PROJECT_DIR$/src/script.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="643">
-              <caret line="215" column="39" selection-start-line="215" selection-start-column="39" selection-end-line="215" selection-end-column="39" />
+              <caret line="215" column="73" selection-start-line="215" selection-start-column="73" selection-end-line="215" selection-end-column="73" />
               <folding>
                 <element signature="n#style#0;n#button#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#i#0;n#!!top" expanded="true" />
@@ -38,14 +39,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jquery-3.3.1.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/jquery-3.3.1.js">
+      <file leaf-file-name="jquery-ui.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/jquery-ui-1.12.1.custom/jquery-ui.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="5412" column="13" selection-start-line="5412" selection-start-column="13" selection-end-line="5412" selection-end-column="13" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state relative-caret-position="315">
+              <caret line="597" column="19" selection-start-line="597" selection-start-column="19" selection-end-line="597" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -59,11 +57,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="74" lean-forward="true" selection-start-line="14" selection-start-column="74" selection-end-line="14" selection-end-column="74" />
+            <state relative-caret-position="300">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
               <folding>
                 <element signature="n#style#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -99,8 +97,10 @@
       <list>
         <option value="$PROJECT_DIR$/src/newScript.js" />
         <option value="$PROJECT_DIR$/src/style.css" />
-        <option value="$PROJECT_DIR$/src/script.js" />
+        <option value="$PROJECT_DIR$/jquery-ui-1.12.1.custom/jquery-ui.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/src/script.js" />
+        <option value="$PROJECT_DIR$/jquery-ui-1.12.1.custom/jquery-ui.css" />
       </list>
     </option>
   </component>
@@ -130,6 +130,11 @@
             <path>
               <item name="Todo-JS-Basic" type="b2602c69:ProjectViewProjectNode" />
               <item name="Todo-JS-Basic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Todo-JS-Basic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Todo-JS-Basic" type="462c0819:PsiDirectoryNode" />
+              <item name="jquery-ui-1.12.1.custom" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Todo-JS-Basic" type="b2602c69:ProjectViewProjectNode" />
@@ -186,12 +191,12 @@
       <workItem from="1530640395703" duration="22000" />
       <workItem from="1530641581066" duration="1121000" />
       <workItem from="1530702890262" duration="17376000" />
-      <workItem from="1530778362144" duration="7266000" />
+      <workItem from="1530778362144" duration="9338000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37033000" />
+    <option name="totallyTimeSpent" value="39105000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -561,6 +566,19 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/newScript.js" />
+    <entry file="file://$PROJECT_DIR$/jquery-ui-1.12.1.custom/jquery-ui.structure.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jquery-ui-1.12.1.custom/jquery-ui.theme.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jquery-ui-1.12.1.custom/jquery-ui.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="11937" column="26" selection-start-line="11937" selection-start-column="20" selection-end-line="11937" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="673">
@@ -578,10 +596,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="n#style#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/script.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="643">
-          <caret line="215" column="39" selection-start-line="215" selection-start-column="39" selection-end-line="215" selection-end-column="39" />
+          <caret line="215" column="73" selection-start-line="215" selection-start-column="73" selection-end-line="215" selection-end-column="73" />
           <folding>
             <element signature="n#style#0;n#button#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#i#0;n#!!top" expanded="true" />
@@ -596,15 +626,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/jquery-ui-1.12.1.custom/jquery-ui.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="74" lean-forward="true" selection-start-line="14" selection-start-column="74" selection-end-line="14" selection-end-column="74" />
-          <folding>
-            <element signature="n#style#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="315">
+          <caret line="597" column="19" selection-start-line="597" selection-start-column="19" selection-end-line="597" selection-end-column="19" />
         </state>
       </provider>
     </entry>

@@ -213,6 +213,6 @@ $(() => $('#addtask').click(
             )
 
     ))
-    .click(() => $('#newtask').val('')).next().click(() => $('.done').remove())
+    .click(() => $('#newtask').val('')).click(() => $('#dialog').dialog()).next().click(() => $('.done').remove())
 )
 
