@@ -184,7 +184,7 @@ $(() => $('#addtask').click(
             //         (e) => $(e.currentTarget).parent().remove()
             // )  
         )
-        .append(
+        .append(                            
             $('<button class="btn btn-danger" style="margin: 2px;">')
                 .html('<i class="far fa-times-circle"></i>')
                 .click((e) => $(e.currentTarget).parent().remove()
